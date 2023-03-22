@@ -5,5 +5,12 @@
 
 .cabecalho{ 
     display: flex;
-    background: #0f00ff
+    background-color: #0f00ff;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.cabecalho-lista__item{
+    display: inline-block;
+    margin: 0 16px;
 }
