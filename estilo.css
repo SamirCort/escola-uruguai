@@ -13,4 +13,18 @@
 .cabecalho-lista__item{
     display: inline-block;
     margin: 0 16px;
+    font-size: 24px;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.escola-uruguai{
+    background-image: linear-gradient(#ecedff);
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
