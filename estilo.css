@@ -1,11 +1,11 @@
-*{ 
-    margin: 0%;
-    padding: 0%;
+{
+    margin: 0;
+    padding: 0;
 }
 
-.cabecalho{ 
+.cabecalho{
     display: flex;
-    background-color: #0f00ff;
+    background-color: #383D58;
     color: white;
     justify-content: space-around;
     align-items: center;
@@ -14,17 +14,24 @@
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
-}
 
+}
 .cabecalho-imagem{
-    width: 10%;
+    width: 20%;
 }
 
-.escola-uruguai{
-    background-image: linear-gradient(#ecedff);
-    color: #000000;
+.escola-imagem{
+    width: 25%;
+}
+.escola{
+    background-image: linear-gradient(#424E61, #16CFF8);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 55;
 }
